@@ -115,5 +115,7 @@ plot.SimulationResult <- function(
         ylab = "Simulated Values") {
 
     # TODO implement the plot function
-  stop("not implemented yet")
+  #stop("not implemented yet")
+
+  ggplot2::ggplot(x$data) + ggplot2::geom_point()
 }
