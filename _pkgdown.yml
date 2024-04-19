@@ -2,3 +2,7 @@ url: https://iaugusty.github.io/simulatr/
 template:
   bootstrap: 5
 
+reference:
+  - title: Functions
+    contents:
+      - getSimulatedTwoArmMeans
